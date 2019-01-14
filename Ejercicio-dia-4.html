@@ -11,69 +11,74 @@
 
 <body>
 
-    <nav class="menu">
-        <h2>MUSIC</h2>
-        <ul>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Rising</a></li>
-            <li><a href="#">Inspiration</a></li>
-            <li><a href="#">My stars</a></li>
-            <li><a href="#">Song</a></li>
-            <li><a href="#">Artists</a></li>
-            <li><a href="#">Albums</a></li>
-            <li><a href="#">Radio</a></li>
-        </ul>
-    </nav>
+    <header>
 
-    <nav class="menu">
-        <h2>PLAYLISTS</h2>
-        <ul>
-            <li><a href="#">UPlabs focus</a></li>
-            <li><a href="#">Gaming OsTs</a></li>
-            <li><a href="#">Smash it!</a></li>
+        <nav class="menu">
+            <h2 class="menu__heading">Music</h2>
+            <ul class="menu__list">
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Rising</a></li>
+                <li><a href="#">Inspiration</a></li>
+                <li><a href="#">My stars</a></li>
+                <li><a href="#">Song</a></li>
+                <li><a href="#">Artists</a></li>
+                <li><a href="#">Albums</a></li>
+                <li><a href="#">Radio</a></li>
+            </ul>
+        </nav>
 
-        </ul>
-    </nav>
+        <nav class="menu">
+            <h2 class="menu_heading">Playlists</h2>
+            <ul class="menu_list">
+                <li><a href="#">UPlabs focus</a></li>
+                <li><a href="#">Gaming OsTs</a></li>
+                <li><a href="#">Smash it!</a></li>
+
+            </ul>
+        </nav>
+    </header>
 
     <main>
-        <div class="catergory">
+        <div class="conteiner">
             <input type="button" value="Save to my stars">
 
-            <h1>Katy Perry</h1>
+            <h1 class="conteiner__heading">Katy Perry</h1>
         </div>
 
         <div>
-            <ul>
+            <ul class="conteiner__list">
                 <li><a href="#">Albums</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Related artists</a></li>
 
             </ul>
         </div>
+        <section class="track">
 
-        <div class="album1">
-            <a href="#"><img src="" alt=""></a>
-        </div>
+            <div class="track__album1">
+                <a href="#"><img src="" alt="album, mujer manos en los ojos">Witness</a>
+            </div>
 
-        <div class="album2">
-            <a href="#"><img src="" alt=""></a>
-        </div>
+            <div class="track__album2">
+                <a href="#"><img src="" alt="album, katy perry en flores">Prism</a>
+            </div>
 
-        <div class="album3">
-            <a href="#"><img src="" alt=""></a>
-        </div>
+            <div class="track__album3">
+                <a href="#"><img src="" alt="album, katy perry en nubes">Teenage dream</a>
+            </div>
 
-        <div class="album4">
-            <a href="#"><img src="" alt=""></a>
-        </div>
+            <div class="track__album4">
+                <a href="#"><img src="" alt="album, katy perry">Katy perry</a>
+            </div>
 
-        <div class="album5">
-            <a href="#"><img src="" alt=""></a>
-        </div>
+            <div class="track__album5">
+                <a href="#"><img src="" alt="album, katy perry">One of the boys</a>
+            </div>
 
-        <div class="album6">
-            <a href="#"><img src="" alt=""></a>
-        </div>
+            <div class="track__album6">
+                <a href="#"><img src="" alt="album, katy perry hear us roar">Hear us roar</a>
+            </div>
+        </section>
 
         <div class="selection">
 
@@ -90,30 +95,32 @@
 
         </div>
 
-        <div class="progressBar">
+        <div class="progressbar">
 
-            <h2>Rhinestone eyes</h2>
-            <img src="#" alt="">
+            <h2 class="progressbar__heading">Rhinestone eyes</h2>
+            <img src="#" alt="album gorillaz">
 
 
             <!--He supuesto que el play, la pausa, etc... seran botones a los que luego se les dara una funcion-->
 
+            <div class="progressbar__btn">
 
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
-
-
-            <progress value="70" max="100"></progress>
-
-            2:54<progress value="150" max="200"></progress>4:03
-
-            <button type="button"></button>
-            <button type="button"></button>
+                <button type="button"></button>
+                <button type="button"></button>
+                <button type="button"></button>
+                <button type="button"></button>
+                <button type="button"></button>
 
 
+                <progress value="70" max="100"></progress>
+
+                2:54<progress value="150" max="200"></progress>4:03
+
+                <button type="button"></button>
+                <button type="button"></button>
+
+
+            </div>
 
 
         </div>
