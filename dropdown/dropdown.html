@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -17,201 +16,191 @@
 
 <body>
 
-<header>
-         
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                 <li>
-                        <div class="dropdown">
-                                <a href="#" role="button" class="dropdown__btn" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
-                                  Formación
-                                </a>
-                                <div class="dropdown__menu" aria-labelledby="dropdownMenuButton">
-                                <a href="#">Angular 7 + Animations</a>
-                                 <a href="#">Angular 7 Avanzado</a>
-                                 <a href="#">Docker + Kubernetes</a>
-                                  <a href="#">NodeJS</a>
-                                  <a href="#">CSS + Sass Avanzado</a>
-                                  <a href="#">VueJS 2</a>
-                                  <div aria-hidden="true" class="dropdown__menu--divider"></div>
-                                  <a href="#">Bootcamp</a>
-                                </div>
-                              </div>
-                              
-                 </li>
-                  
-                    
-                  
-                
-                    <li><a href="#">Referencia</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
+    <header>
 
-                <form action="#" class="searchAutocomplete">
-                    <label for="searchAutocomplete">Buscar en campus</label>
-                    <div class="search" id="Sugerencias">
-                            <input type="text" class="search__input" aria-haspopup="true" aria-expanded="false">
-                            <div class="dropdown__menu" aria-labelledby="searchAutocomplete">
-                              <a href="#">Angular 7</a>
-                              <a href="#">Angular 7 + Animations</a>
-                              <a href="#">Angular 7 Avanzado</a>
-                              <div aria-hidden="true" class="dropdown__menu--divider"></div>
-                              <a href="#">Otros cursos de formación</a>
-                              <a href="#">Bootcamp</a>
-                            </div>
-                         <button type="submit">Buscar</button>
-                          </div>
+        <nav class="navbar">
+            <ul class="list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" role="button" class="dropdown__btn" id="dropdownMenuButton" aria-haspopup="true"
+                            aria-expanded="false">
+                            Formación
+                        </a>
+                        <div class="dropdown__menu" aria-labelledby="dropdownMenuButton">
+                            <a href="#">Angular 7 + Animations</a>
+                            <a href="#">Angular 7 Avanzado</a>
+                            <a href="#">Docker + Kubernetes</a>
+                            <a href="#">NodeJS</a>
+                            <a href="#">CSS + Sass Avanzado</a>
+                            <a href="#">VueJS 2</a>
+                            <div aria-hidden="true" class="dropdown__menu--divider"></div>
+                            <a href="#">Bootcamp</a>
+                        </div>
+                    </div>
+
+                </li>
+
+                <li><a href="#">Referencia</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <form action="" class="search">
+            <label for="searchAutocomplete">Buscar en campus</label>
+            <div class="search" id="Sugerencias">
+                <input type="text" role="searchbox" id="searchAutocomplete" class="search__input" aria-haspopup="true"
+                    aria-expanded="false">
+                <div class="dropdown__menu" aria-labelledby="searchAutocomplete">
+                    <a href="#">Angular 7</a>
+                    <a href="#">Angular 7 + Animations</a>
+                    <a href="#">Angular 7 Avanzado</a>
+                    <div aria-hidden="true" class="dropdown__menu--divider"></div>
+                    <a href="#">Otros cursos de formación</a>
+                    <a href="#">Bootcamp</a>
+                </div>
+                <button type="submit">Buscar</button>
+            </div>
 
 
+        </form>
+
+    </header>
+
+    <main>
+
+        <section class="intro intro--bg-color">
+            <div class="container">
+
+                <h1 class="container__heading">Hola a todos!</h1>
+
+                <p class="container__pgh">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere repudiandae
+                    nulla, aperiam
+                    voluptates
+                    reiciendis mollitia minima dicta rem nam rerum quidem, adipisci sit ab minus non veritatis magni
+                    sunt
+                    eos.
+                </p>
+
+                <a href="#" class="container__btn">Mas información</a>
+            </div>
+
+
+        </section>
+
+
+        <div class="container training">
+            <article class="col">
+                <h2 class="col__heading"><a href="https://alligator.io/angular/angular-7/">Angular 7 + Animations</a></h2>
+
+                <img class="col__heading" src="../images/curso.png" alt="vacio">
+
+                <p class="col__pgh">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, labore
+                    cupiditate! Asperiores
+                    recusandae labore provident debitis animi, enim, repellendus suscipit voluptatem non perferendis
+                    quibusdam iusto. Porro dolore nemo rem minima!</p>
+
+            </article>
+
+
+
+            <article class="col">
+
+                <h2 class="col__heading"><a href="https://docs.docker.com/docker-for-windows/kubernetes/">Docker +
+                        Kubernetes</a></h2>
+
+                <img class="col__heading" src="../images/curso.png" alt="vacio">
+
+                <p class="col__pgh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque omnis aliquam
+                    natus ratione
+                    velit laudantium sapiente, ipsam minus voluptatum vitae maxime tenetur impedit? Pariatur doloremque
+                    blanditiis quam natus hic in?</p>
+
+            </article>
+
+            <article class="col">
+
+                <h2 class="col__heading"><a href="https://nodejs.org/en/">NodeJs</a></h2>
+
+                <img class="col__imagen" src="../images/curso.png" alt="vacio">
+
+                <p class="col__pgh">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis suscipit impedit
+                    possimus, quos
+                    praesentium optio ab sint quia id dolorum culpa fugit error amet. Earum corrupti rem consectetur ut
+                    nostrum?</p>
+
+            </article>
+        </div>
+
+
+        <section class="convocatory">
+
+
+
+            <div class="convocatory__col">
+                <img class="col__video" src="../images/video.png" alt="video">
+
+            </div>
+
+            <div class="convocatory intro">
+
+                <h2 class="convocatory__heading">Próximas convocatorias</h2>
+
+                <p class="convocatory__pgh">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, ea,
+                    dignissimos animi unde
+                    pariatur autem optio quia enim, consequatur voluptates dolore modi facilis natus cum aliquam
+                    odit. Debitis, nesciunt dignissimos.</p>
+
+                <p>Indica tu correo electronico</p>
+
+                <form class="convocatory__formulary">
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="Introduce un email válido">
+                    <input type="submit" value="Me apunto!">
 
                 </form>
-                </header>
-          
+            </div>
 
-   
 
-   
-<main>
-    
-    <article class="intro">
-        
-                    <h1>Hola a todos!</h1>
-        
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere repudiandae nulla, aperiam voluptates
-                        reiciendis mollitia minima dicta rem nam rerum quidem, adipisci sit ab minus non veritatis magni sunt
-                        eos.</p>
-        
-                    <a href="#">Mas información</a>
-        
-    
-                    </article>
-            
-    
-    
-    
-    
-    
-    
-    
-    
-    
-            <section>
-    
-                <div class="col">
-                    <h2><a href="https://alligator.io/angular/angular-7/">Angular 7 + Animations</a></h2>
-    
-                    <img src="../images/curso.png" alt="vacio">
-    
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, labore cupiditate! Asperiores
-                        recusandae labore provident debitis animi, enim, repellendus suscipit voluptatem non perferendis
-                        quibusdam iusto. Porro dolore nemo rem minima!</p>
-    
-                </div>
-    
-    
-    
-                <div class="col">
-    
-                    <h2><a href="https://docs.docker.com/docker-for-windows/kubernetes/">Docker + Kubernetes</a></h2>
-    
-                    <img src="../images/curso.png" alt="vacio">
-    
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque omnis aliquam natus ratione
-                        velit laudantium sapiente, ipsam minus voluptatum vitae maxime tenetur impedit? Pariatur doloremque
-                        blanditiis quam natus hic in?</p>
-    
-                </div>
-    
-                <div class="col">
-    
-                    <h2><a href="https://nodejs.org/en/">NodeJs</a></h2>
-    
-                    <img src="../images/curso.png" alt="vacio">
-    
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis suscipit impedit possimus, quos
-                        praesentium optio ab sint quia id dolorum culpa fugit error amet. Earum corrupti rem consectetur ut
-                        nostrum?</p>
-    
-                </div>
-    
-            </section>
-    
-    
-    
-    
-    
-    
-            <article>
-    
-                <div class="container">
-    
-                    <div class="col">
-                        <img src="../images/video.png" alt="video">
-    
-                    </div>
-    
-                    <div class="col">
-    
-                        <h2>Próximas convocatorias</h2>
-    
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, ea, dignissimos animi unde
-                            pariatur autem optio quia enim, consequatur voluptates dolore modi facilis natus cum aliquam
-                            odit. Debitis, nesciunt dignissimos.</p>
-    
-                        <p>Indica tu correo electronico</p>
-    
-                        <label for="email"></label>
-                        <input type="email" id="email" placeholder="Introduce un email válido">
-                        <input type="submit" value="Me apunto!">
-    
-                    </div>
-    
-                </div>
-    
+
+        </section>
+
+        <!--.spot .col{-->
+
+        <article class="service">
+
+            <h2 class="service__heading">Servicios de apoyo profesional</h2>
+
+            <p class="service__pgh">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem minima, eius consectetur, dolores
+                laboriosam aperiam quas magnam ipsa quibusdam fugiat deleniti cumque odit debitis alias dolore neque
+                veritatis libero? Amet!</p>
+
+            <a class="service__btn" href="#">Lorem ipsun</a>
+
             </article>
-    
-            <!--.spot .col{-->
-    
-    
-    
-    
-            <aside>
-    
-                <h2>Servicios de apoyo profesional</h2>
-    
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem minima, eius consectetur, dolores
-                    laboriosam aperiam quas magnam ipsa quibusdam fugiat deleniti cumque odit debitis alias dolore neque
-                    veritatis libero? Amet!</p>
-    
-                <a href="#">Lorem ipsun</a>
-               
-            </aside>
-</main>
+    </main>
+
+
+    <footer>
+
+
+        <ul class="foot__list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Formacion</a></li>
+            <li><a href="#">Referencia</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
 
 
 
-           
-<footer>
-    
-    
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Formacion</a></li>
-                        <li><a href="#">Referencia</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
-    
-    
-    
-    
-                </div>
-    
-                <p>© Copiryght 2018</p>
-</footer>
+
+
+
+        <p class="foot__pgh">© Copiryght 2018</p>
+    </footer>
 
 
 </body>
