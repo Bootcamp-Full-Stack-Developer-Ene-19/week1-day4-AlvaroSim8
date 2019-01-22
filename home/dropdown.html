@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Zeplin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="toggler.js"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" role="button" class="dropdown__btn" id="dropdownMenuButton" aria-haspopup="true"
+                            aria-expanded="false">
+                            Formación
+                        </a>
+                        <div class="dropdown__menu" aria-labelledby="dropdownMenuButton">
+                            <a href="#">Angular 7 + Animations</a>
+                            <a href="#">Angular 7 Avanzado</a>
+                            <a href="#">Docker + Kubernetes</a>
+                            <a href="#">NodeJS</a>
+                            <a href="#">CSS + Sass Avanzado</a>
+                            <a href="#">VueJS 2</a>
+                            <div aria-hidden="true" class="dropdown__menu--divider"></div>
+                            <a href="#">Bootcamp</a>
+                        </div>
+                    </div>
+
+                </li>
+
+                <li><a href="#">Referencia</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+
+            <form action="" class="search">
+                <label for="searchAutocomplete">Buscar en campus</label>
+                <div class="search" id="Sugerencias">
+                    <input type="text" role="searchbox" id="searchAutocomplete" class="search__input" aria-haspopup="true"
+                        aria-expanded="false">
+                    <div class="dropdown__menu" aria-labelledby="searchAutocomplete">
+                        <a href="#">Angular 7</a>
+                        <a href="#">Angular 7 + Animations</a>
+                        <a href="#">Angular 7 Avanzado</a>
+                        <div aria-hidden="true" class="dropdown__menu--divider"></div>
+                        <a href="#">Otros cursos de formación</a>
+                        <a href="#">Bootcamp</a>
+                    </div>
+                    <button type="submit">Buscar</button>
+                </div>
+
+
+            </form>
+        </nav>
+
+    </header>
+
+
+    <main>
+        <section class="intro">
+
+
+            <div class="container">
+
+                <h1 class="intro__heading">Hola a todos!</h1>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere repudiandae
+                    nulla, aperiam voluptates
+                    reiciendis mollitia minima dicta rem nam rerum quidem, adipisci sit ab minus non veritatis magni
+                    sunt
+                    eos.</p>
+
+                <button><a class="intro__btn" href="#">Mas información</a></button>
+
+            </div>
+
+        </section>
+
+
+
+        <section>
+            <div class="container">
+                <div class="training">
+                    <article class="training__art">
+                        <h2 class="training__heading"><a href="https://alligator.io/angular/angular-7/">Angular
+                                7+Animations</a></h2>
+
+                        <img class="training__image" src="../images/curso.png" alt="vacio">
+
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, labore cupiditate!
+                            Asperiores
+                            recusandae labore provident debitis animi, enim, repellendus suscipit voluptatem non
+                            perferendis
+                            quibusdam iusto. Porro dolore nemo rem minima!</p>
+
+                    </article>
+
+
+                    <article class="training__art">
+                        <h2 class="training__heading"><a href="https://docs.docker.com/docker-for-windows/kubernetes/">Docker
+                                + Kubernetes</a></h2>
+
+                        <img class="training__image" src="../images/curso.png" alt="vacio">
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque omnis aliquam natus
+                            ratione
+                            velit laudantium sapiente, ipsam minus voluptatum vitae maxime tenetur impedit? Pariatur
+                            doloremque
+                            blanditiis quam natus hic in?</p>
+
+                    </article>
+
+
+
+                    <article class="training__art">
+
+                        <h2 class="training__heading"><a href="https://nodejs.org/en/">NodeJs</a></h2>
+
+                        <img class="training__image" src="../images/curso.png" alt="vacio">
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis suscipit impedit possimus,
+                            quos
+                            praesentium optio ab sint quia id dolorum culpa fugit error amet. Earum corrupti rem
+                            consectetur ut
+                            nostrum?</p>
+
+
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <article class="spot">
+
+
+            <div class="container">
+
+                <div class="spot__video">
+                    <img src="../images/video.png" alt="video">
+
+                
+                    <div class="spot__letter">
+
+
+                        <h2 class="spot__heading">Próximas convocatorias</h2>
+
+
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, ea, dignissimos animi
+                            unde
+                            pariatur autem optio quia enim, consequatur voluptates dolore modi facilis natus cum
+                            aliquam
+                            odit. Debitis, nesciunt dignissimos.</p>
+
+
+                        <form class="spot__form" action="">
+
+                            <p class="correo">Indica tu correo</p>
+
+                            <label for="email"></label>
+                            <input type="email" id="email" placeholder="Introduce un email válido">
+
+                            <div>
+
+                                <button type="submit">Me apunto!</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </article>
+
+        <!--.spot .col{-->
+
+        <article class="servs">
+            <div class="container">
+
+                <h2 class="servs__heading">Servicios de apoyo profesional</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem minima, eius consectetur, dolores
+                    laboriosam aperiam quas magnam ipsa quibusdam fugiat deleniti cumque odit debitis alias dolore
+                    neque
+                    veritatis libero? Amet!</p>
+
+                <button><a class="servs__btn" href="#">Lorem ipsun</a></button>
+
+            </div>
+        </article>
+    </main>
+
+
+
+
+
+
+    <footer>
+
+
+        <div class="container">
+            <ul class="foot__list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Formacion</a></li>
+                <li><a href="#">Referencia</a></li>
+                <li><a href="#">Contacto</a></li>
+                
+            </ul>
+
+            <p>Company 2018</p>
+
+            
+
+
+
+
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+
+</html>
